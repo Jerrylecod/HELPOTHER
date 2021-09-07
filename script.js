@@ -8,9 +8,8 @@
      $(toggle).click(function() {
          menud.style.visibility = 'visible';
      });
-     //  appuye a l 'exterieur du bouton pour replier le menu deroulant 
+     //  sous menu replier
      $(outbutton).click(function() {
          menud.style.visibility = 'hidden';
-
-     })
+     });
  });
