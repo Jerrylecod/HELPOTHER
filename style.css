@@ -53,26 +53,57 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #fff0;
-    flex-wrap: wrap-reverse;
     list-style-type: none;
-    width: 182px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 14%;
 }
 
 .submenu li a {
-    color: #3d424a;
-    text-shadow: 1px 1px 1px white;
+    color: #f6f6f2;
+    text-shadow: 2px 1px 1px #0a0a0a;
     font-size: 1.2em;
     text-decoration-line: none;
+    border: 1px solid white;
+    border-radius: 0%;
+    box-shadow: 4px 4px 3px black;
+    padding: 5%;
 }
 
+nav ul .submenu li a:hover {
+    color: rgba(15, 15, 14, 0.986);
+    text-shadow: 2px 1px 1px rgb(250, 247, 247);
+}
+
+.list {
+    position: relative;
+    bottom: 24%;
+    margin: 5%;
+    padding: 6%;
+    border-radius: 7%;
+    box-shadow: 5px 2px 7px 1px white;
+    background-color: #ffffff9e;
+}
+
+
+}
 .menubutton:hover {
     background-color: rgb(255, 255, 255);
     border-radius: 20%;
 }
-
 .image img {
     height: 100vh;
     width: 100vw;
     object-fit: cover;
     object-position: 50% 100%;
+}
+.title h2 {
+    color: rgb(244, 241, 241);
+    position: relative;
+    bottom: 48vh;
+    text-align: center;
+    text-shadow: 3px 1px 1px #40404078;
+    line-height: 38px;
+    font-size: 35px;
 }
