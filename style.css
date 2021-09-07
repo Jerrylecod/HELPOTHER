@@ -48,6 +48,10 @@ body {
     box-shadow: 1px 1px 1px 1px black;
 }
 
+.menubutton {
+    border-radius: 27%;
+}
+
 .submenu {
     visibility: hidden;
     display: flex;
@@ -66,14 +70,13 @@ body {
     font-size: 1.2em;
     text-decoration-line: none;
     border: 1px solid white;
-    border-radius: 0%;
     box-shadow: 4px 4px 3px black;
     padding: 5%;
 }
 
 nav ul .submenu li a:hover {
-    color: rgba(15, 15, 14, 0.986);
-    text-shadow: 2px 1px 1px rgb(250, 247, 247);
+    color: rgba(245, 245, 241, 0.986);
+    text-shadow: 2px 1px 1px rgb(0, 0, 0);
 }
 
 .list {
@@ -86,24 +89,48 @@ nav ul .submenu li a:hover {
     background-color: #ffffff9e;
 }
 
-
-}
 .menubutton:hover {
     background-color: rgb(255, 255, 255);
     border-radius: 20%;
 }
+
 .image img {
     height: 100vh;
     width: 100vw;
     object-fit: cover;
     object-position: 50% 100%;
 }
+
 .title h2 {
     color: rgb(244, 241, 241);
     position: relative;
-    bottom: 48vh;
+    bottom: 60vh;
     text-align: center;
     text-shadow: 3px 1px 1px #40404078;
     line-height: 38px;
     font-size: 35px;
 }
+
+.we-span {
+    position: relative;
+    bottom: 14em;
+    margin: 14%;
+    padding: 5%;
+}
+
+.help {
+    margin: 4% 15%;
+    padding: 2%;
+}
+
+.we {
+    font-size: 1.6em;
+    text-shadow: 3px 2px 1px #828080;
+}
+
+.paratext {
+    text-align: center;
+    font-weight: bold;
+}
+
+.other {}
